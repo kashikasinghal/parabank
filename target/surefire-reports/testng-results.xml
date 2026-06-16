@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-16T11:29:34 IST" name="ParaBank Suite" finished-at="2026-06-16T11:30:11 IST" duration-ms="37134">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5542c4ed]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-06-16T11:29:34 IST" name="ParaBank Tests" finished-at="2026-06-16T11:30:11 IST" duration-ms="37134">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@5542c4ed]" started-at="2026-06-16T11:29:34 IST" name="setUpClass" finished-at="2026-06-16T11:29:34 IST" duration-ms="714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@d919544]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5542c4ed]" started-at="2026-06-16T11:29:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-06-16T11:29:50 IST" duration-ms="15625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_002 - Successfully login with registered account credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["ParaBank Authentication Tests"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5542c4ed]" started-at="2026-06-16T11:29:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-06-16T11:30:02 IST" duration-ms="11634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_003 - Verify account balance is displayed after login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["ParaBank Authentication Tests"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5542c4ed]" started-at="2026-06-16T11:30:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-06-16T11:30:11 IST" duration-ms="9059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_004 - Complete end-to-end sign-up and sign-in flow"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["ParaBank Authentication Tests"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@5542c4ed]" started-at="2026-06-16T11:30:11 IST" name="tearDownClass" finished-at="2026-06-16T11:30:11 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- ParaBank Tests -->
+  </suite> <!-- ParaBank Suite -->
+</testng-results>
